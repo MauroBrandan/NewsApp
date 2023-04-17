@@ -633,7 +633,6 @@ a {
 [role='link']:is([aria-current], :hover, :active, :focus),
 a:is([aria-current], :hover, :active, :focus) {
 	--color: var(--primary-hover);
-	--text-decoration: underline;
 }
 [role='link']:focus,
 a:focus {

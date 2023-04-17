@@ -38,6 +38,10 @@ export default function Header() {
 				nav {
 					padding: 0 16px;
 				}
+
+				nav li > * {
+					color: var(--primary-inverse);
+				}
 			`}</style>
 		</>
 	)
