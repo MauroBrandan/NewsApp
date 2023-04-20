@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Header from './Header'
+import Footer from './Footer'
 
 export default function PageLayout({ children, title }) {
 	return (
@@ -15,6 +16,7 @@ export default function PageLayout({ children, title }) {
 			</Head>
 			<Header />
 			<main>{children}</main>
+			<Footer />
 		</>
 	)
 }
