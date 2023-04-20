@@ -25,20 +25,23 @@ export default function Article({ article }) {
 
 				<p>{description}</p>
 
-				<footer>
+				<div className='btn'>
 					<a href={url} target='_blank' rel='noopener noreferrer' role='button'>
 						See the whole news
 					</a>
-				</footer>
+				</div>
 			</article>
 
 			<style jsx>{`
+				article {
+					margin-top: -24px;
+				}
 				.img {
 					display: flex;
 					justify-content: center;
 					margin-bottom: 36px;
 				}
-				footer {
+				.btn {
 					display: flex;
 					justify-content: center;
 				}
