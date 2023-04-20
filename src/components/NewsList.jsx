@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Image from 'next/image'
 import AnimatedText from './AnimatedText'
 
@@ -8,15 +9,17 @@ export default function NewsList({ articles }) {
 				<AnimatedText />
 				{articles.map((article, index) => (
 					<article key={index} className={`article${index + 1}`}>
-						<Image
-							src={article.urlToImage}
-							alt={`Image for the article ${article.title}`}
-							width={500}
-							height={350}
-							priority={index < 2}
-						/>
-						<h3>{article.title}</h3>
-						<small>{article.description}</small>
+						<Link href={`/posts/${index}`} style={{ color: 'inherit' }}>
+							<Image
+								src={article.urlToImage}
+								alt={`Image for the article ${article.title}`}
+								width={500}
+								height={350}
+								priority={index < 2}
+							/>
+							<h3>{article.title}</h3>
+							<small>{article.description}</small>
+						</Link>
 					</article>
 				))}
 			</section>
