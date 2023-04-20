@@ -3,22 +3,25 @@ export default function Footer() {
 		<>
 			<footer>
 				<p>
-					Code by <br /> <a href=''>Mauro Brandan</a>
+					Code by <br />
+					<a href='https://maurobrandan.com/' target='_blank' rel='noopener noreferrer'>
+						Mauro Brandan
+					</a>
 				</p>
 
 				<ul>
 					<li>
-						<a href='https://newsapi.org/' target='_blank'>
+						<a href='https://newsapi.org/' target='_blank' rel='noopener noreferrer'>
 							News API
 						</a>
 					</li>
 					<li>
-						<a href='https://techcrunch.com/' target='_blank'>
+						<a href='https://techcrunch.com/' target='_blank' rel='noopener noreferrer'>
 							TechCrunch
 						</a>
 					</li>
 					<li>
-						<a href='https://github.com/MauroBrandan/NewsApp' target='_blank'>
+						<a href='https://github.com/MauroBrandan/NewsApp' target='_blank' rel='noopener noreferrer'>
 							GitHub
 						</a>
 					</li>
