@@ -7,7 +7,7 @@ export default function AnimatedText() {
 				<span
 					style={{
 						'--start-color': '#007CF0',
-						' --end-color': '#00DFD8',
+						'--end-color': '#00DFD8',
 						'--content': '"Top headlines"',
 					}}
 				>
@@ -16,7 +16,7 @@ export default function AnimatedText() {
 				<span
 					style={{
 						'--start-color': '#7928CA',
-						' --end-color': '#FF0080',
+						'--end-color': '#FF0080',
 						'--content': '"from TechCrunch"',
 						'--animation': 'a2',
 					}}
@@ -26,7 +26,7 @@ export default function AnimatedText() {
 				<span
 					style={{
 						'--start-color': '#FF4D4D',
-						' --end-color': '#F9CB28',
+						'--end-color': '#F9CB28',
 						'--content': '"right now"',
 						'--animation': 'a3',
 						'animation-name': 'a3',
