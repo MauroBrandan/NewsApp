@@ -47,9 +47,11 @@ export default function Article({ article }) {
 				}
 				a {
 					background-color: inherit;
+					color: var(--primary);
 				}
 				a:hover {
 					background-color: var(--primary-hover);
+					color: var(--primary-inverse);
 				}
 			`}</style>
 		</>

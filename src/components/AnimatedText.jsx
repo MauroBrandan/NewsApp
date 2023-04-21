@@ -45,7 +45,7 @@ export default function AnimatedText() {
 				}
 
 				span {
-					color: #fff;
+					color: var(--background-color);
 					display: block;
 					font-size: 50px;
 					position: relative;
@@ -53,12 +53,12 @@ export default function AnimatedText() {
 
 				span::before {
 					animation-name: var(--animation, a);
-					animation-duration: 8s;
+					animation-duration: 3s;
 					animation-iteration-count: infinite;
 					background: linear-gradient(90deg, var(--start-color), var(--end-color));
 					-webkit-background-clip: text;
 					-webkit-text-fill-color: transparent;
-					color: #fff;
+					color: var(--background-color);
 					font-size: 50px;
 					position: absolute;
 					inset: 0;

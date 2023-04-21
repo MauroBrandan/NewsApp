@@ -39,8 +39,11 @@ export default function Header() {
 					padding: 0 16px;
 				}
 
-				nav li > * {
-					color: var(--primary-inverse);
+				nav li:nth-child(-n + 2) a {
+					color: var(--primary);
+				}
+				nav li:nth-child(-n + 2) a:hover {
+					color: var(--primary-hover);
 				}
 			`}</style>
 		</>
